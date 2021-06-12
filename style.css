@@ -1,0 +1,137 @@
+body, html{
+    margin:0;
+    height:100%;
+    line-height: 1.8em;
+    font-weight: 400;
+    font-family: 'lato', sans-serif;
+    color:#666;
+    font-size: 16px;
+    scroll-behavior: smooth;
+    
+}
+
+header,footer{
+   height: 50px;
+    text-align: center;
+    padding-top: 2%;
+    background-color: #eee;
+    
+}
+/* nav links styling */
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: burlywood;
+}
+a{
+    color: #666;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+
+.pimg1, .pimg2, .pimg3 {
+    opacity: .85;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+/* Picture styling */
+.img-container{
+    height: 40%;position: relative;
+}
+.pimg1 {
+width: 100%;
+z-index: -1;
+}
+.pimg2 {
+    background-image: url('imgs/pimg2.jpg');
+    min-height: 400px;
+}
+.pimg3 {
+    background-image: url('imgs/pimg3.jpg');
+    min-height: 400px;
+}
+/* formating for all sections */
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+
+}
+
+.section-dark{
+    background-color: #282e34;
+    color: #ddd
+}
+/* align main text at begining */
+.ptext {
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 27px;
+    color:#000;
+    letter-spacing: 8px;
+}
+
+.ptext .border {
+    background-color: #111;
+    color: #fff;
+    padding: 20px
+
+}
+#featured{
+    margin-top: 50px;
+}
+
+
+.col{
+   column-count: 3;
+}
+/* fancy table styling */
+table{
+    width: 100%;
+}
+tr:hover{
+    color: cornflowerblue;
+}
+td:hover{
+    color: rgb(190, 208, 241);
+}
+th:hover{
+    color: rgb(190, 208, 241);
+}
+
+/* Make it look like a form */
+
+.form-inputs{
+    display: block;
+}
+form button{
+    margin-top: 10px;
+border-radius: 5px;
+padding: 5px 10px;
+
+}
+form button:hover{
+background-color: cornflowerblue;
+
+}
+/* Fix to make the for center as the phone input was pushing the label over */
+.margin-fix{
+    margin-right: 5px;
+}
+
+
